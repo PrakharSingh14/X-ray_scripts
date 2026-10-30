@@ -1,0 +1,2 @@
+# macOS / editor clutter (each instrument folder has its own .gitignore for data and login files)
+.DS_Store

@@ -1,0 +1,32 @@
+# ============================================================================
+# XSM days to download
+# ============================================================================
+#
+# HOW TO GIVE DATES
+#   One date (or one range) per line. Each date can be written as:
+#       YYYY-MM-DD      e.g. 2025-09-09
+#       YYYYMMDD        e.g. 20250909
+#       YYYY/MM/DD      e.g. 2025/09/09
+#
+#   Range of days (both ends included), with ':' between start and end:
+#       2025-09-01 : 2025-09-05        -> 5 days, 1st to 5th Sep
+#       20240510 : 2024/05/12          -> the two sides may use different formats
+#
+# GOOD TO KNOW
+#   - Anything after '#' is a note and is ignored, so is a blank line.
+#   - Spaces around the date or the ':' don't matter.
+#   - Order doesn't matter: days are sorted and duplicates are removed.
+#   - A header line 'date', 'day' or 'days' is ignored.
+#   - A .csv file also works: the date (or range) must be in the FIRST column,
+#     other columns are ignored (see days.csv).
+#
+# NOT ACCEPTED (the script stops and tells you the line number)
+#   09-09-2025, 09/09/2025     day-first dates
+#   9 Sep 2025                 month names
+#   2025-09-09 04:30           times (each file is a whole day anyway)
+#
+# ============================================================================
+
+2021-09-23      # 2021 data (older release folder)
+20220302        # 2022 onwards
+2025-09-09

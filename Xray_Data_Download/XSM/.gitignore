@@ -1,0 +1,15 @@
+# PRADAN login scripts contain your session cookie - never share them
+xsm_20*.py
+cookie.txt
+
+# downloaded data
+Data/
+Data_zip/
+*.part
+__pycache__/
+.ipynb_checkpoints/
+
+# editor / OS clutter
+.DS_Store
+.virtual_documents/
+.jupyter/
