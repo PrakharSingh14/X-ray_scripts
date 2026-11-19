@@ -1,0 +1,49 @@
+{
+  "comment": "Master Index for SoLEXS Calibration Files",
+  "files": {
+    "SDD1": {
+      "deadtime": null,
+      "arf": null,
+      "arf_pi": null,
+      "rmf": null,
+      "ebounds": null
+    },
+    "SDD2": {
+      "deadtime": [
+        {
+          "filename": "deadtime/solexs_deadtime_params_SDD2_v1.fits",
+          "valid_start": "2024-01-01T00:00:00",
+          "valid_stop": null
+        }
+      ],
+      "arf": [
+        {
+          "filename": "arf/solexs_arf_SDD2_v1.arf",
+          "valid_start": "2024-01-01T00:00:00",
+          "valid_stop": null
+        }
+      ],
+      "arf_pi": [
+        {
+          "filename": "arf/solexs_arf_pi_SDD2_v1.arf",
+          "valid_start": "2024-01-01T00:00:00",
+          "valid_stop": null
+        }
+      ],
+      "rmf": [
+        {
+          "filename": "response/rmf/solexs_gaussian_SDD2_v1.rmf",
+          "valid_start": "2024-01-01T00:00:00",
+          "valid_stop": null
+        }
+      ],
+      "ebounds": [
+        {
+          "filename": "ebounds/energy_bins_out_SDD2_v1.dat",
+          "valid_start": "2024-01-01T00:00:00",
+          "valid_stop": null
+        }
+      ]
+    }
+  }
+}

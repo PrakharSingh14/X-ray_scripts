@@ -1,0 +1,8 @@
+# Python packages (install with: pip install -r requirements.txt)
+# PyXspec is NOT on pip: it comes with HEASoft. solexs_tools: see README.
+numpy>=1.24
+matplotlib>=3.7
+astropy>=5.3
+scipy
+pandas
+jupyter

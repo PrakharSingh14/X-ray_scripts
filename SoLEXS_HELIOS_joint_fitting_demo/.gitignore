@@ -1,0 +1,10 @@
+# unpacked level-1 data (the notebooks unpack the zip files in data/)
+data/2025/
+data/AL1_SLX_L1_*/
+
+# outputs made by the notebooks
+outputs/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
